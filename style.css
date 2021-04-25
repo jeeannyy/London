@@ -1,0 +1,103 @@
+@import url("https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css");
+
+body {
+  background-color: #f6f6f6;
+  padding: 50px 25px;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  max-width: 770px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.big_title {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  justify-self: center;
+  border-bottom: solid 2px black;
+  padding: 10px;
+}
+
+h1 {
+  font-size: 100px;
+  font-weight: 850;
+}
+
+h4 {
+  font-size: 50px;
+  font-weight: 850;
+  position: relative;
+  top: 50px;
+}
+
+.small_title {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-basis: 300px;
+  font-weight: 700;
+  font-size: 12px;
+  color: rgba(75, 74, 74, 0.959);
+}
+
+.text:nth-child(1) {
+  display: flex;
+  flex-direction: column;
+  margin: 14px 0px 0px 0px;
+  flex-grow: 0.5;
+  line-height: 15px;
+}
+
+.text:nth-child(2) {
+  display: flex;
+  flex-direction: column;
+  margin: 10px 0px 0px 0px;
+  flex-grow: 2;
+  line-height: 15px;
+}
+
+.text:nth-child(3) {
+  display: flex;
+  flex-direction: column;
+  margin: 10px 0px 0px 0px;
+}
+
+.circle {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.skyblue {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 240px;
+  height: 240px;
+  border-radius: 50%;
+  background-color: rgb(154, 210, 236);
+  margin: 80px 0 50px 0;
+}
+
+.charcoal {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 240px;
+  height: 240px;
+  border-radius: 50%;
+  background-color: rgb(88, 90, 90);
+  margin: 0 0 50px 0;
+}
+
+.green {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 240px;
+  height: 240px;
+  border-radius: 50%;
+  background-color: rgb(53, 189, 121);
+  margin: 0 0 100px 0;
+}
